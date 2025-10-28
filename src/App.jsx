@@ -5,7 +5,7 @@ import GalleryWidget from "./Components/GalleryWidget";
 const App = () => {
   return (
     <div className="min-h-screen bg-[#0d0f14] flex ">
-      {/* Left half (empty but responsive) */}
+      {/* Left half  */}
       <div className="w-1/2  hidden md:block"></div>
 
       {/* Right half */}

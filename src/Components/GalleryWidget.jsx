@@ -12,17 +12,17 @@ const GalleryWidget = () => {
     {
       id: 1,
       src: "https://picsum.photos/400/250?random=1",
-      alt: "Modern building 1",
+      alt: "random img 1",
     },
     {
       id: 2,
       src: "https://picsum.photos/400/250?random=2",
-      alt: "Modern building 2",
+      alt: "random img 2",
     },
     {
       id: 3,
       src: "https://picsum.photos/400/250?random=3",
-      alt: "Modern building 3",
+      alt: "random img 3",
     },
   ]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -117,7 +117,7 @@ const GalleryWidget = () => {
           </div>
         </div>
 
-        {/* Progress Bar */}
+        {/* Progress bar */}
         <div className="mt-5 w-full h-1 bg-[#2b2d35] rounded-full">
           <div
             className="h-full bg-gray-400 rounded-full transition-all duration-500"
